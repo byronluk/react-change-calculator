@@ -1,0 +1,158 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 3%;
+}
+.input-div {
+  width: 35%;
+  height: 300px;
+  margin-right: 4%;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: white;
+}
+.output-div {
+  width: 53%;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+.title {
+  width: 100%;
+}
+.header {
+  color: white;
+  padding-left: 5px;
+  margin-bottom: 0;
+  font-size: 42px;
+  letter-spacing: .4px;
+}
+.line {
+  margin-left: 0;
+  width: 35%;
+}
+.input-p {
+  background-color: #faf3f3;
+  margin: 0 0;
+  padding: 15px 0 15px 5px;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid #c2c0c0;
+}
+.input-label {
+  padding-left: 25px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.input-field {
+  margin-left: 25px;
+  padding-left: 5px;
+  height: 24px;
+  width: 50%;
+  border-radius: 4px;
+  border: 0.5px solid #c2bfbf;
+  font-family: 'Montserrat', sans-serif;
+}
+.button-footer {
+  background-color: #faf3f3;
+  justify-content: flex-end;
+  margin: auto 0 0 0;
+  padding: 15px 15px;
+  border-radius: 0 0 8px 8px;
+  border-top: 1px solid #c2c0c0;
+}
+.submit {
+  width: 70%;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #575ea1;
+  outline: none;
+  background-color: #656db9;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+div.output-div {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 40% 40%;
+}
+#output {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  margin: 15px 8%;
+  padding-top: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.alert {
+  background-color: rgb(245, 212, 212);
+  border: 1px solid rgb(238, 189, 189);
+}
+.success {
+  background-color: rgb(201, 235, 201);
+  border: 1px solid rgb(183, 224, 183);
+}
+.twenties {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+.tens {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.fives {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.ones {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+.quarters {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+.dimes {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+.nickels {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+.pennies {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+.money-label {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  justify-self: center;
+  text-align: center;
+  border-radius: 8px;
+  border: .8px solid rgb(193, 203, 223);
+  background-color: rgb(244, 247, 253);
+  box-shadow: inset -1px -1px 4px 2px rgb(216, 219, 243);
+  width: 85%;
+  padding-top: 15px;
+  height: 110px;
+}
+p.money-output {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 32px;
+  color: rgb(44, 44, 44);
+  margin-top: 12px;
+  text-align: center;
+}
