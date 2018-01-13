@@ -1,6 +1,6 @@
-#Change calculator built with react
+# Change calculator built with react
 
-##Setup
+## Setup
 ```
 npm install
 ```
@@ -11,5 +11,5 @@ npm run build
 npm start
 ```
 
-###TO DO
+### TO DO
 add mobile responsive css
