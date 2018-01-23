@@ -8,6 +8,7 @@ class App extends Component {
       amountReceived: 0,
       payment: null,
       output: null,
+      total: null,
       change: {
         twenties: 0,
         tens: 0,
